@@ -1,0 +1,273 @@
+********************************************************************************
+product = WebSphere Application Server 16.0.0.4 (wlp-1.0.15.cl160420161113-0206)
+wlp.install.dir = C:/Users/IBM_ADMIN/Documents/GitHub/chansyapp/target/liberty/wlp/
+java.home = C:\Program Files\Java\jdk1.8.0_101\jre
+java.version = 1.8.0_101
+java.runtime = Java(TM) SE Runtime Environment (1.8.0_101-b13)
+os = Windows 7 (6.1; amd64) (en_US)
+process = 4964@ISD-PC0BRTVW
+********************************************************************************
+[3/17/17 23:27:02:409 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer has been launched.
+[3/17/17 23:27:02:475 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0100I: This product is licensed for development, and limited production use. The full license terms can be viewed here: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/16.0.0.4/lafiles/en.html
+[3/17/17 23:27:06:195 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 4.59 seconds
+[3/17/17 23:27:06:388 CST] 00000030 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[3/17/17 23:27:09:237 CST] 00000028 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications. 
+[3/17/17 23:27:09:666 CST] 00000037 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host *  (IPv6) port 9080.
+[3/17/17 23:27:10:242 CST] 00000035 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application ChansyApp.
+[3/17/17 23:27:12:941 CST] 00000035 com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[3/17/17 23:27:13:030 CST] 00000035 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: ChansyApp-1.0-SNAPSHOT.
+[3/17/17 23:27:13:033 CST] 00000035 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module ChansyApp-1.0-SNAPSHOT has been bound to default_host.
+[3/17/17 23:27:13:035 CST] 00000035 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://isd-pc0brtvw.ad.qintra.com:9080/ChansyApp/
+[3/17/17 23:27:13:063 CST] 00000035 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application ChansyApp started in 2.821 seconds.
+[3/17/17 23:27:13:113 CST] 00000030 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [servlet-3.1].
+[3/17/17 23:27:13:114 CST] 00000030 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 6.871 seconds.
+[3/17/17 23:27:13:114 CST] 00000030 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The server defaultServer is ready to run a smarter planet.
+[3/17/17 23:27:15:329 CST] 00000035 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\Users\IBM_ADMIN\Documents\GitHub\chansyapp\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.
+[3/17/17 23:31:09:976 CST] 00000056 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/ChansyApp
+[3/17/17 23:31:10:004 CST] 00000056 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[3/17/17 23:31:10:153 CST] 00000056 SystemErr                                                    R SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+[3/17/17 23:31:10:154 CST] 00000056 SystemErr                                                    R SLF4J: Defaulting to no-operation (NOP) logger implementation
+[3/17/17 23:31:10:155 CST] 00000056 SystemErr                                                    R SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[3/17/17 23:31:10:979 CST] 00000056 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [ChansyApp] [/ChansyApp] [wasdev.sample.servlet.SimpleServlet]: Initialization successful.
+[3/17/17 23:31:15:553 CST] 0000004c com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [ChansyApp] [/ChansyApp] [wasdev.sample.servlet.LogClassifier]: Initialization successful.
+[3/17/17 23:31:15:558 CST] 0000004c SystemOut                                                    O Posting loglinePOST
+[3/17/17 23:31:15:567 CST] 0000004c SystemOut                                                    O "Exception in thread ""main"" java.lang.ArrayIndexOutOfBoundsException: 1 at beginner.HelloWorldApp.main(HelloWorldApp.java:17)"
+[3/17/17 23:31:15:567 CST] 0000004c SystemOut                                                    O ajax
+[3/17/17 23:31:15:570 CST] 0000004c SystemOut                                                    O N
+[3/17/17 23:31:15:570 CST] 0000004c SystemOut                                                    O N
+[3/17/17 23:31:15:570 CST] 0000004c SystemOut                                                    O N
+[3/17/17 23:31:15:570 CST] 0000004c SystemOut                                                    O N
+[3/17/17 23:31:15:571 CST] 0000004c SystemOut                                                    O N
+[3/17/17 23:31:15:573 CST] 0000004c SystemOut                                                    O N
+[3/17/17 23:31:15:574 CST] 0000004c SystemOut                                                    O N
+[3/17/17 23:31:15:575 CST] 0000004c SystemOut                                                    O N
+[3/17/17 23:31:15:575 CST] 0000004c SystemOut                                                    O N
+[3/17/17 23:31:15:576 CST] 0000004c SystemOut                                                    O N
+[3/17/17 23:31:15:576 CST] 0000004c SystemOut                                                    O N
+[3/17/17 23:31:15:577 CST] 0000004c SystemOut                                                    O N
+[3/17/17 23:31:15:579 CST] 0000004c SystemOut                                                    O Found match java.lang.ArrayIndexOutOfBoundsException:
+[3/17/17 23:31:15:579 CST] 0000004c SystemOut                                                    O N
+[3/17/17 23:31:15:580 CST] 0000004c SystemOut                                                    O N
+[3/17/17 23:31:15:580 CST] 0000004c SystemOut                                                    O N
+[3/17/17 23:31:15:580 CST] 0000004c SystemOut                                                    O N
+[3/17/17 23:31:15:581 CST] 0000004c SystemOut                                                    O N
+[3/17/17 23:31:15:581 CST] 0000004c SystemOut                                                    O N
+[3/17/17 23:31:15:581 CST] 0000004c SystemOut                                                    O N
+[3/17/17 23:31:15:581 CST] 0000004c SystemOut                                                    O N
+[3/17/17 23:31:15:582 CST] 0000004c SystemOut                                                    O Method:beginner.HelloWorldApp.main
+[3/17/17 23:31:15:583 CST] 0000004c SystemOut                                                    O N
+[3/17/17 23:31:15:583 CST] 0000004c SystemOut                                                    O N
+[3/17/17 23:31:15:584 CST] 0000004c SystemOut                                                    O N
+[3/17/17 23:31:15:584 CST] 0000004c SystemOut                                                    O 	{exception=java.lang.ArrayIndexOutOfBoundsException:, filename=beginner.HelloWorldApp.main(HelloWorldApp.java, method=beginner.HelloWorldApp.main, logdate=not found, linenum=17)", logtime=not found}
+[3/17/17 23:31:18:222 CST] 0000004c SystemOut                                                    O {
+  "classes": [
+    {
+      "confidence": 1.0,
+      "class_name": "JavaError"
+    },
+    {
+      "confidence": 0.0,
+      "class_name": "JavaWarning"
+    }
+  ],
+  "classifier_id": "90e7acx197-nlc-2434",
+  "text": "\"Exception in thread \"\"main\"\" java.lang.ArrayIndexOutOfBoundsException: 1 at beginner.HelloWorldApp.main(HelloWorldApp.java:17)\"",
+  "top_class": "JavaError",
+  "url": "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/90e7acx197-nlc-2434"
+}
+[3/17/17 23:31:18:222 CST] 0000004c SystemOut                                                    O 1.0
+[3/17/17 23:49:30:839 CST] 000000c5 SystemOut                                                    O Posting loglinePOST
+[3/17/17 23:49:30:840 CST] 000000c5 SystemOut                                                    O                                               09:54:44.565 [main] ERROR java ClassCastExceptionTest java.lang.ClassCastException: java.lang.String incompatible with java.lang.Integer at ClassCastExceptionTest.storeItem(ClassCastExceptionTest.java:6)
+[3/17/17 23:49:30:840 CST] 000000c5 SystemOut                                                    O ajax
+[3/17/17 23:49:30:841 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:841 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:842 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:842 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:842 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:842 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:843 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:843 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:843 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:843 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:843 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:845 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:845 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:845 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:846 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:846 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:848 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:849 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:850 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:851 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:851 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:851 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:851 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:851 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:852 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:852 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:852 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:852 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:852 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:853 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:853 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:853 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:853 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:853 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:854 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:854 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:854 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:854 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:854 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:854 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:855 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:855 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:855 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:855 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:856 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:856 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:856 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:857 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:857 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:858 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:859 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:859 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:860 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:860 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:860 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:860 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:861 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:861 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:861 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:862 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:862 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:862 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:864 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:864 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:865 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:865 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:865 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:866 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:866 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:867 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:867 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:868 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:870 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:870 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:871 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:871 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:871 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:872 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:872 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:872 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:872 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:873 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:873 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:873 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:874 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:875 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:875 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:875 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:876 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:876 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:876 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:876 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:876 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:877 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:877 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:877 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:877 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:877 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:877 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:878 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:878 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:878 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:878 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:878 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:878 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:879 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:879 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:879 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:879 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:880 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:881 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:882 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:883 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:883 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:883 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:883 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:884 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:885 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:885 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:886 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:887 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:887 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:887 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:888 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:888 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:888 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:889 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:889 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:889 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:889 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:890 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:890 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:890 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:890 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:891 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:891 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:892 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:892 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:892 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:893 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:894 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:894 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:894 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:894 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:895 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:895 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:895 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:895 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:895 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:896 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:896 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:896 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:897 CST] 000000c5 SystemOut                                                    O Found match java.lang.ClassCastException:
+[3/17/17 23:49:30:898 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:899 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:902 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:902 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:903 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:903 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:903 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:904 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:904 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:904 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:904 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:905 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:905 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:906 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:906 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:907 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:907 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:907 CST] 000000c5 SystemOut                                                    O Method:ClassCastExceptionTest.storeItem
+[3/17/17 23:49:30:909 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:910 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:910 CST] 000000c5 SystemOut                                                    O N
+[3/17/17 23:49:30:910 CST] 000000c5 SystemOut                                                    O 	{exception=java.lang.ClassCastException:, filename=ClassCastExceptionTest.storeItem(ClassCastExceptionTest.java, method=ClassCastExceptionTest.storeItem, logdate=not found, linenum=6), logtime=09:54:44.565}
+[3/17/17 23:49:32:450 CST] 000000c5 SystemOut                                                    O {
+  "classes": [
+    {
+      "confidence": 0.995957434288418,
+      "class_name": "JavaError"
+    },
+    {
+      "confidence": 0.004042565711582037,
+      "class_name": "JavaWarning"
+    }
+  ],
+  "classifier_id": "90e7acx197-nlc-2434",
+  "text": "                                              09:54:44.565 [main] ERROR java ClassCastExceptionTest java.lang.ClassCastException: java.lang.String incompatible with java.lang.Integer at ClassCastExceptionTest.storeItem(ClassCastExceptionTest.java:6)",
+  "top_class": "JavaError",
+  "url": "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/90e7acx197-nlc-2434"
+}
+[3/17/17 23:49:32:458 CST] 000000c5 SystemOut                                                    O 0.995957434288418
