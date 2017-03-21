@@ -13,8 +13,6 @@
 
     <artifactId>ChansyApp</artifactId>
 
-    <artifactId>JavaHelloWorldApp</artifactId>
-
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
