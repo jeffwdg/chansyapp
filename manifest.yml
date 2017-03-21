@@ -1,9 +1,6 @@
 applications:
-<<<<<<< HEAD
 - path: target/ChansyApp.war
-=======
 - path: target/ChansyApp.war
->>>>>>> fa85478a113bfb0ba5bd8a57fe68cc1e9e54784a
   memory: 512M
   instances: 1
   domain: mybluemix.net
