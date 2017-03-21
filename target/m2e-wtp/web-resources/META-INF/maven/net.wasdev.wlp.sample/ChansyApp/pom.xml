@@ -10,7 +10,9 @@
     </parent>
 
     <groupId>net.wasdev.wlp.sample</groupId>
+
     <artifactId>ChansyApp</artifactId>
+
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
@@ -42,6 +44,7 @@
             <artifactId>geronimo-servlet_3.0_spec</artifactId>
             <scope>provided</scope>
         </dependency>
+
         <dependency>
           <groupId>com.ibm.watson.developer_cloud</groupId>
           <artifactId>java-sdk</artifactId>
@@ -53,7 +56,6 @@
 		    <version>7.8.5</version>
 		</dependency>
     </dependencies>
-
 
     <build>
         <pluginManagement>

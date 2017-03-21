@@ -7,11 +7,9 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-<<<<<<< HEAD
 import java.io.PrintWriter;
 import java.io.StringWriter;
-=======
->>>>>>> fa85478a113bfb0ba5bd8a57fe68cc1e9e54784a
+
 
 /**
  * Servlet implementation class SimpleServlet
@@ -19,18 +17,13 @@ import java.io.StringWriter;
 @WebServlet("/SimpleServlet")
 public class SimpleServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
-<<<<<<< HEAD
     public String errorMessage="";
-=======
 
->>>>>>> fa85478a113bfb0ba5bd8a57fe68cc1e9e54784a
     /**
      * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
      */
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-<<<<<<< HEAD
-
 
 
         String s="";
@@ -88,10 +81,9 @@ public class SimpleServlet extends HttpServlet {
     public void numberFormatException(){
       String s = "FOOBAR";
       int i = Integer.parseInt(s);
-=======
-        response.setContentType("text/html");
-        response.getWriter().print("Hello World!");
->>>>>>> fa85478a113bfb0ba5bd8a57fe68cc1e9e54784a
+
+        //response.setContentType("text/html");
+        //response.getWriter().print("Hello World!");
     }
 
 }
