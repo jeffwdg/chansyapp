@@ -1,0 +1,17 @@
+id,value
+testhtml5,
+testhtml5.high,
+testhtml5.high.CSRF
+testhtml5.high.XSS
+testhtml5.high.DomBasedXSS
+testhtml5.medium,
+testhtml5.medium.unencryptedpassword
+testhtml5.medium.commondirectory
+testhtml5.low,
+testhtml5.low.insecure-allow-control-allow-origin-header
+testhtml5.low.missing-Xframe-header
+testhtml5.low.password-field-with-autocomplete
+testhtml5.information,
+testhtml5.information.allowed-HTTP-methods
+testhtml5.information.interesting-response
+testhtml5.information.HTTPOnly-cookie

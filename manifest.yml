@@ -1,4 +1,6 @@
 applications:
+<<<<<<< HEAD
+<<<<<<< master
 <<<<<<< master
 <<<<<<< master
 - path: target/JavaHelloWorldApp.war
@@ -12,6 +14,13 @@ applications:
 >>>>>>> 115597f Updated manifest.yml
 =======
 >>>>>>> 115597f Updated manifest.yml
+=======
+- path: target/ChansyApp.war
+>>>>>>> 46151af Created log classifier
+=======
+- path: target/ChansyApp.war
+- path: target/ChansyApp.war
+>>>>>>> 115597fdbcbb19d3875ea5daf2ef0bc3ddce45fc
   memory: 512M
   instances: 1
   domain: mybluemix.net

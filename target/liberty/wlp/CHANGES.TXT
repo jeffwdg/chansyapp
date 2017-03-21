@@ -1,0 +1,97 @@
+PI42673 Extra information in logs with Datasource custom properties 
+PI62070 Full chain created in PKCS12 but not for JKS key store
+PI62375 Potential code execution vulnerablity in WebSphere Application Server (CVE-2016-5983)
+PI62816 Allow more than one address to be specified in the remoteServerAddress field
+PI64898 ASYNCLISTENER ONERROR NOT BEING CALLED CORRECTLY
+PI65593 The database schema name cannot be configured with openjpa.jdbc.SchemaFactory
+PI65762 DESTROYJAVAVM() METHOD CALL HANGS AND JVM FAILS TO SHUT DOWN WHEN ASYNCH SERVLET WORK HAS BEEN PERFORMED.
+PI66621 ReferenceContextImpl caching empty list of targets for JSP classes   
+PI66770 JPA returns incorrect results when using a native query and @SqlResultSetMapping
+PI67034 Access was denied for property org.apache.jasper.constants.jsp_servlet_base.
+PI67099 Provide option to add STS response header for HTTPs request
+PI67234 SERVER PLATFORM CLASS IS NOT VALID: NULL WITH JPA 2.1
+PI67257 An escaped EL expression is being run if an escaped dollar sign precedes the former expression
+PI67525 inputFile tag is not working properly on Liberty
+PI67718 Z/OS CONNECT WEBSPHERE LIBERTY PROFILE 8.5.5.5, UNRESPONSIVE to STOP COMMAND
+PI67790 java.lang.ClassCastException using JPA
+PI67942 javax.servlet.HttpServletRequest.getRequestURI() might return a decoded value after dispatching
+PI68028 EclipseLink throws ValidationException when using nested embeddables with the same attribute name
+PI68061 Option to display customized text for some server errors
+PI68101 JSON bits are missing from a URL when SAML authentication redirects a request
+PI68163 MQJCA1011: Failed to allocate a JMS connection
+PI68170 Users of Liberty's OSGI EventAdmin service cannot change the topics of interest for a registered EventHandler
+PI68257 Connection manager might remain active after transaction manager has been disabled.
+PI68418 Purge policy ValidateAllConnections does not properly validate connections
+PI68432 When user applications are using Websocket Decoders a slow memory leak can occur.
+PI68664 Record-level sharing (rls) is miscalculating the amount of data to be written to partner logs
+PI68741 HTTP status code 200 is returned to a client when the servlet or JSP throws an exception
+PI68805 Potential leak of org.apache.bval.cdi.BValExtension$Releasable objects when using JAX-RS, CDI 1.2, and Bean Validation 1.1.
+PI68915 Default server.xml is incorrect
+PI69028 Null CodeSource location for classes loaded by JSPExtensionClassLoader
+PI69122 J2C pretest being used despite FailingConnectionOnly option
+PI69133 Disk space validator returns NullPointerException.
+PI69141 Make sure HTTPS URL connection default is set at the same time SSLContext is set.
+PI69161 Constrained delegation works only when Liberty trace is enabled
+PI69183 APAR PI18414 may result in the recovery log service using incorrect sequence numbers.
+PI69193 ContextNotActiveException in SessionScoped bean preDestroy()
+PI69220 A plugin-cfg.xml is generated with missing applications and future auto-generation fails.
+PI69277 Java 2 Security permissions are not granted to a shared library when using the file element instead of a fileset
+PI69286 Non-ASCII names used in remote operations from a collective controller may become corrupted.
+PI69314 ELException: Can not find @Transactional annotation
+PI69328 CWWKZ0403E error message occurs due to error Unable to acquire the global write lock in time.
+PI69415 Support configurable context root for OIDC client redirect url
+PI69561 REST API Discovery missing APIs in web applications with multiple  JAX-RS application classes
+PI69625 LIBERTY SERVER AT 16.0.0.3 MAY FAIL TO START WHEN USING ASYNCIO
+PI69642 NullPointerException deleting stateful EJB
+PI69737 Errors are not logged when tasks submitted to managed executors fail
+PI69741 Remove extra information from trace file
+PI69840 A NoClassDefFoundError or NoSuchMethodError may be thrown when accessing Swagger annotations.
+PI69870 IllegalAccessException on EL expression that processes isLast() of object referencing varStatus in JSTL for-each tag
+PI69886 When using the zosLocalAdapters-1.0 feature to talk to CICS, the CICS container LinkTaskRspContID already exists.
+PI69887 FFDC logged for resource adapter config property with getter that is named with "is" rather than "get"
+PI69942 JSP property useJDKCompiler does not work in Liberty
+PI69957 Destination id erroneously used for JCA 1.7 destinationLookup instead of JNDI name.
+PI70063 A decrease in throughput can occur when many concurrent requests for JSP pages that make use of tag libraries.
+PI70090 WebSphere Liberty "server" and native launcher handle a # in the middle of a JVM property inconsistently
+PI70104 Starting a Web Application Bundle (WAB) can result in a deadlock sometimes when the WAB is installed and started dynamically
+PI70184 WebSocket not working if application flushes without obtaining any outputStream or writer
+PI70196 PI70196: ibm rest servlet can't be mapped to two different urls:
+PI70224 The value of ConnectionHandleCount on the ConnectionPool MBean is not accurate when in use connections are destroyed
+PI70313 Swagger API Explorer ignores protocol schemes for operations
+PI70332 System property to enable SSL Channel timeoutValueInSSLClosingHandshake property 
+PI70441 FlowBuilderFactoryBean Concurrency Issue
+PI70600 Auto extracted web app files have incorrect timestamp.
+PI70614 Clean up all resources on an application startup failure on cdi-1.0 feature
+PI70637 WEBSPHERE LIBERTY - INVALID CALL TO WSBYTEBUFFER DURING SHUTDOWN
+PI70680 Deployment of persistence unit fails with DescriptorException
+PI70841 OpenJPA's ConfigurationImpl.loadGlobals() has java.util.ConcurrentModificationException
+PI70848 IF LIBERTY IS RUNNING AND AUTOEXPAND="TRUE" IN THE SERVER.XML, LIBERTY DOES NOT DETECT CHANGES TO EAR FILES.
+PI70870 ConcurrentModificationException in AppClassLoader when using the global library
+PI70873 java.lang.NullPointerException might occur during a request's cleanup.
+PI70886 Java Batch REST: STOP request may not return JobNotRunningException even when the job batch status returns as COMPLETED.
+PI70887 An exception in the batch executor may cause a message to roll-back onto queue (and get re-delivered) instead of consumed.
+PI70896 Liberty Server hang in termination after a hard failure on z/OS
+PI70900 Events get lost when the logstashCollector config gets updated
+PI70961 Corrections to messages in JMS Messaging
+PI71104 @Inject Principal does not work in mutli-threaded environment.
+PI71116 When certain features are enabled the application property autoStart has no effect
+PI71193 Illegal State Exception when transaction timeout occurs and abort is used
+PI71238 IllegalArgumentException when getHours() is called
+PI71359 FFDC is produced for a NullPointerException in com.ibm.ws.tcpchannel.internal.SocketRWChannelSelector.updateSelector
+PI71417 Startup time for Liberty for z/OS is unnecessarily slow.
+PI71436 A debugger does not stop at a breakpoint in a JavaSever Page (JSP).
+PI71457 NullPointerException after a failure to bind an IIOP transport port
+PI71525 NullPointerException when registering a Custom User Registry that returns a null realm name
+PI71585 NullPointerException when null password is passed into WSCallBackHandlerFactory
+PI71587 Data source is not autodetecting MariaDB.
+PI71607 Schema for resource adapters contains an unused attribute.
+PI71667 Application fails with WELD-001408: Unsatisfied dependencies for type Validator with qualifiers @Default
+PI71718 Attempting to purge multiple job instances fails when their executions are not on the same endpoint
+PI71719 Batch REST request for job instance job log links fails with remote executions
+PI71734 Failover does not work with CDI 1.2
+PI71751 Provide better message when bad SSL configuration is used by CSIv2.
+PI71752 Plugging in an external cache provider does not work with the distributedMap-1.0 feature.
+PI71792 New files added to a controller's configDropins/defaults directory are not replicated to other controllers in the collective.
+PI71825 CWWKS3006E error message seen during server shutdown.
+PI71851 Missing apostrophes in French and Italian pluginUtility text
+PI71887 JAX-RS Client fails when running in OSGi bundles
