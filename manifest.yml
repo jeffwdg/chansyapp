@@ -1,9 +1,16 @@
 applications:
 <<<<<<< master
+<<<<<<< master
 - path: target/JavaHelloWorldApp.war
 =======
+=======
 - path: target/ChansyApp.war
+>>>>>>> 115597f Updated manifest.yml
 - path: target/ChansyApp.war
+<<<<<<< master
+- path: target/ChansyApp.war
+>>>>>>> 115597f Updated manifest.yml
+=======
 >>>>>>> 115597f Updated manifest.yml
   memory: 512M
   instances: 1
