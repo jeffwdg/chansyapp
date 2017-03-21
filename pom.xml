@@ -10,11 +10,11 @@
     </parent>
 
     <groupId>net.wasdev.wlp.sample</groupId>
-<<<<<<< HEAD
+
     <artifactId>ChansyApp</artifactId>
-=======
+
     <artifactId>JavaHelloWorldApp</artifactId>
->>>>>>> fa85478a113bfb0ba5bd8a57fe68cc1e9e54784a
+
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
@@ -46,7 +46,7 @@
             <artifactId>geronimo-servlet_3.0_spec</artifactId>
             <scope>provided</scope>
         </dependency>
-<<<<<<< HEAD
+
         <dependency>
           <groupId>com.ibm.watson.developer_cloud</groupId>
           <artifactId>java-sdk</artifactId>
@@ -60,10 +60,10 @@
     </dependencies>
 
 
-=======
+
     </dependencies>
 
->>>>>>> fa85478a113bfb0ba5bd8a57fe68cc1e9e54784a
+
     <build>
         <pluginManagement>
             <plugins>
