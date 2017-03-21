@@ -1,5 +1,10 @@
 applications:
+<<<<<<< master
 - path: target/JavaHelloWorldApp.war
+=======
+- path: target/ChansyApp.war
+- path: target/ChansyApp.war
+>>>>>>> 115597f Updated manifest.yml
   memory: 512M
   instances: 1
   domain: mybluemix.net
