@@ -1,5 +1,12 @@
 // index.js
 
+
+var basedir = "chansy.mybluemix.net";
+var domain = document.domain;
+if(domain.localeCompare((basedir) != 0){
+	basedir = "localhost:9080"
+}
+
 // request message on server
 //Calls SimpleServlet to get the "Hello World" message
 xhrGet("SimpleServlet", function(responseText){
@@ -25,12 +32,12 @@ xhrGet("LogClassifier", function(responseText){
 */
 
 $("#logClassify").click(function(){
-	var logline = $("#logline").val();	
+	var logline = $("#logline").val();
 	var data = { logline: logline };
- 
+
 	var str = "info";
 	$.ajax( {
-        url:'http://localhost:9080/ChansyApp/LogClassifier',
+        url: basedir +'/ChansyApp/LogClassifier',
         method: 'POST',
         data: data,
         success:function(res) {
@@ -42,10 +49,10 @@ $("#logClassify").click(function(){
         	   str = "danger";
            }else if(r[0] == "JavaWarning")
            {str = "warning";}
-           
+
            $("#logclass").addClass("label-"+str);
            $("#logscore").addClass("bg-"+str);
-           
+
            console.log(res);
         }
      });

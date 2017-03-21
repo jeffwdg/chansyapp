@@ -19733,3 +19733,5 @@ Mar 21, 2017 22:57:14 +0800 [3788 28] com.newrelic INFO: Agent 3788@ISD-PC0BRTVW
 Mar 21, 2017 22:57:14 +0800 [3788 28] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1579561/applications/45720775
 Mar 21, 2017 22:57:14 +0800 [3788 28] com.newrelic INFO: Using RUM version 1026 for application "My Application"
 Mar 21, 2017 22:57:14 +0800 [3788 28] com.newrelic INFO: Real user monitoring is enabled with auto instrumentation for application "My Application"
+Mar 22, 2017 00:41:21 +0800 [3788 6] com.newrelic.agent.Agent INFO: JVM is shutting down
+Mar 22, 2017 00:41:22 +0800 [3788 6] com.newrelic.agent.Agent INFO: New Relic Agent has shutdown

@@ -23,3 +23,10 @@ process = 3788@ISD-PC0BRTVW
 [3/21/17 22:57:09:854 CST] 0000002f com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 5.243 seconds.
 [3/21/17 22:57:09:854 CST] 0000002f com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The server defaultServer is ready to run a smarter planet.
 [3/21/17 22:57:10:859 CST] 00000034 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\Users\IBM_ADMIN\Documents\GitHub\chansyapp\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.
+[3/22/17 0:41:21:319 CST] 00000026 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Wednesday, March 22, 2017 at 12:41 AM. The server defaultServer is shutting down.
+[3/22/17 0:41:21:328 CST] 00000401 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[3/22/17 0:41:21:333 CST] 00000402 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint has stopped listening for requests on host *  (IPv6) port 9080.
+[3/22/17 0:41:21:335 CST] 00000402 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://isd-pc0brtvw.ad.qintra.com:9080/ChansyApp/
+[3/22/17 0:41:21:337 CST] 00000401 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Server quiesce complete.
+[3/22/17 0:41:21:393 CST] 000003fc com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application ChansyApp has stopped successfully.
+[3/22/17 0:41:21:657 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server defaultServer stopped after 1 hours, 44 minutes, 20.204 seconds.
