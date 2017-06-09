@@ -1,6 +1,6 @@
-Bnd-LastModified: 1479005777224
+Bnd-LastModified: 1488165132132
 Created-By: 1.7.0 (IBM Corporation)
-IBM-AppliesTo: com.ibm.websphere.appserver;productVersion="16.0.0.4"
+IBM-AppliesTo: com.ibm.websphere.appserver;productVersion="17.0.0.1"
 IBM-Feature-Version: 2
 IBM-Install-Policy: when-satisfied
 IBM-InstallTo: core
@@ -18,4 +18,4 @@ Subsystem-SymbolicName: com.ibm.websphere.appserver.securityContext-1.0; visibil
 Subsystem-Type: osgi.subsystem.feature
 Subsystem-Vendor: IBM Corp.
 Subsystem-Version: 1.0.0
-Tool: Bnd-3.1.0.201511301807
+Tool: Bnd-3.3.0.201609221906

@@ -1,3 +1,3 @@
-#Sun Nov 13 03:38:15 GMT 2016
-lib/features/com.ibm.websphere.appserver.websocketCDI-1.2.mf=5864fc67ea503801031f11d8cf9ae10f
-lib/com.ibm.ws.wsoc.cdi.weld_1.0.15.jar=5ddb97475ee8299de920b807ca9e0d25
+#Mon Feb 27 04:08:29 GMT 2017
+lib/com.ibm.ws.wsoc.cdi.weld_1.0.16.jar=9251aca868f748c530592548c4d6526d
+lib/features/com.ibm.websphere.appserver.websocketCDI-1.2.mf=ffa93da2900e3583727547f1120923b9

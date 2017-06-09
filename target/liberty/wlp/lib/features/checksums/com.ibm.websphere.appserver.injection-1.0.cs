@@ -1,3 +1,3 @@
-#Sun Nov 13 03:38:16 GMT 2016
-lib/features/com.ibm.websphere.appserver.injection-1.0.mf=fc7745e3eda94e3de72c2ceb40a4bf3b
-lib/com.ibm.ws.injection_1.0.15.jar=ab5fb7cd31bff2a4d519a3c67b2ad001
+#Mon Feb 27 04:08:30 GMT 2017
+lib/features/com.ibm.websphere.appserver.injection-1.0.mf=44e87c9476760efa1ae14c83047aa2a5
+lib/com.ibm.ws.injection_1.0.16.jar=62669dfa6f8e9186a894c6ed1c47d32a

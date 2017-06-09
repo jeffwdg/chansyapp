@@ -1,3 +1,3 @@
-#Sun Nov 13 03:38:16 GMT 2016
-lib/features/com.ibm.websphere.appserver.localConnector-1.0.mf=bf111c78810e7a3b719299efbcde6f92
-lib/com.ibm.ws.jmx.connector.local_1.0.15.jar=deeb6fd30c0ccf6ff72c8d4b9dc4e7f7
+#Mon Feb 27 04:08:30 GMT 2017
+lib/features/com.ibm.websphere.appserver.localConnector-1.0.mf=236c143418561daca2d74cb948e68034
+lib/com.ibm.ws.jmx.connector.local_1.0.16.jar=f9b8bcd995539f3480753ce7454990e8

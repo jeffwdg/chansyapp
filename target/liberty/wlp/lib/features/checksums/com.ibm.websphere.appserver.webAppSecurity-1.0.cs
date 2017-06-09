@@ -1,8 +1,8 @@
-#Sun Nov 13 03:38:15 GMT 2016
-dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.webcontainer.security.app_1.1-javadoc.zip=9ccfde527447de832a655aee741ce06e
-lib/com.ibm.ws.security.authentication.tai_1.0.15.jar=c9468124f56042014cc3e437861ec26d
-dev/api/ibm/com.ibm.websphere.appserver.api.webcontainer.security.app_1.1.15.jar=7b2c6294f06a7e13b8a93e78271b6b39
-lib/com.ibm.ws.security.appbnd_1.0.15.jar=3067e2971db09f69cd93d6f8afdc1053
-lib/features/com.ibm.websphere.appserver.webAppSecurity-1.0.mf=4cf4dbded04c7d10e2c6525b1a672a8a
-lib/com.ibm.ws.webcontainer.security_1.0.15.jar=dcbd0a37ab9f020e39a220c282be7d8a
-lib/com.ibm.ws.webcontainer.security.app_1.0.15.jar=cbe212e1977ab1f395faf5eddefadba8
+#Mon Feb 27 04:08:30 GMT 2017
+lib/com.ibm.ws.webcontainer.security_1.0.16.jar=6a62fad529b9505d2757bd3cc6d9797e
+dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.webcontainer.security.app_1.1-javadoc.zip=271ed3da1c88dc72c71be055426e2fe0
+lib/com.ibm.ws.webcontainer.security.app_1.0.16.jar=dcbf8733234dce311f8a7383678bf445
+lib/features/com.ibm.websphere.appserver.webAppSecurity-1.0.mf=742494fd205d4c9fc8da030f27e16c4b
+lib/com.ibm.ws.security.authentication.tai_1.0.16.jar=6fe07990199a59efbcda2452d7c2ff8c
+dev/api/ibm/com.ibm.websphere.appserver.api.webcontainer.security.app_1.1.16.jar=3319427dfbe5b6b29bee29a10300da51
+lib/com.ibm.ws.security.appbnd_1.0.16.jar=442cc84a851794943c11335f8f098902

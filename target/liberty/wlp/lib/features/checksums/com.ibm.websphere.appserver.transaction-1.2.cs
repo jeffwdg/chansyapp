@@ -1,14 +1,14 @@
-#Sun Nov 13 03:38:16 GMT 2016
-lib/com.ibm.tx.util_1.0.15.jar=a614cb1f467842ea993c30057de3e3e1
-lib/com.ibm.ws.tx.jta.extensions_1.0.15.jar=db1e117a9c6b8752eb46a7470ed11670
-lib/com.ibm.ws.recoverylog_1.0.15.jar=c1137f9b95ab0ce421121d328c5c4193
-lib/com.ibm.rls.jdbc_1.0.15.jar=906a159d424c71869f85dc9020d38b26
-dev/spi/ibm/com.ibm.websphere.appserver.spi.transaction_1.1.15.jar=b2b7e21a7841bf76d6d65f99ede5c6e2
-lib/com.ibm.ws.transaction_1.0.15.jar=f62da3929f494eda640ee72e0cfe1ceb
-lib/com.ibm.tx.jta_1.0.15.jar=ad60d8df829339e5cea6e76d7431a509
-dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.transaction_1.1-javadoc.zip=8531fd1773076fffbec380eb3583e907
-lib/com.ibm.ws.tx.embeddable_1.0.15.jar=1cffa5b61e69f5f4312f30177a3237cb
-lib/com.ibm.tx.ltc_1.0.15.jar=3eaa468308967ef813f8f68e13782ff1
-lib/features/com.ibm.websphere.appserver.transaction-1.2.mf=fb360283d6b8c9b235ef3b954cd86b62
-lib/com.ibm.ws.transaction.cdi_1.0.15.jar=a1a0aca49f877091aaf9bce89e7eee74
-lib/com.ibm.ws.cdi.1.2.interfaces_1.0.15.jar=7208811fa67135aaaf82bcb6e885f9ea
+#Mon Feb 27 04:08:30 GMT 2017
+lib/com.ibm.ws.tx.jta.extensions_1.0.16.jar=86a7a2cf953972f71085bdb5386ae028
+lib/com.ibm.ws.recoverylog_1.0.16.jar=98c019850a60266a76f6368438656ca1
+lib/com.ibm.rls.jdbc_1.0.16.jar=0df462047fc992e5d84a78f764957002
+dev/spi/ibm/com.ibm.websphere.appserver.spi.transaction_1.1.16.jar=3eb3fd2e656419f9452f9496f4d93267
+lib/com.ibm.ws.transaction_1.0.16.jar=9daa45212c9238accaecf97bf56258cf
+lib/com.ibm.tx.jta_1.0.16.jar=d3a54e819af41c02534d56258ac1b899
+dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.transaction_1.1-javadoc.zip=d3187fc459bfd98d34db0b403468cf2f
+lib/com.ibm.ws.tx.embeddable_1.0.16.jar=48f4dd65abd5dab7401f5621bb57058c
+lib/com.ibm.tx.ltc_1.0.16.jar=84c841060c9a7356ce4d8faf5e46e33a
+lib/features/com.ibm.websphere.appserver.transaction-1.2.mf=79f12dc474f76391e8d9c8c3b1209fac
+lib/com.ibm.ws.transaction.cdi_1.0.16.jar=abed55b97149ec9e421dcf18aca8a2f0
+lib/com.ibm.ws.cdi.1.2.interfaces_1.0.16.jar=7fdf87366b2bed73acb323889c0dfef0
+lib/com.ibm.tx.util_1.0.16.jar=044d6441ed9c9ac1402cf6e7fc3b4b53

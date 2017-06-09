@@ -1,11 +1,11 @@
-Bnd-LastModified: 1479005607341
+Bnd-LastModified: 1488164855278
 Created-By: 1.7.0 (IBM Corporation)
 IBM-API-Package: javax.websocket; version="1.1"; type=spec,
  javax.websocket.server; version="1.1"; type=spec,
  com.ibm.websphere.wsoc; type=ibm-api
 IBM-App-ForceRestart: install,
  uninstall
-IBM-AppliesTo: com.ibm.websphere.appserver;productVersion="16.0.0.4"
+IBM-AppliesTo: com.ibm.websphere.appserver;productVersion="17.0.0.1"
 IBM-Feature-Version: 2
 IBM-InstallTo: core
 IBM-License-Agreement: wlp/lafiles/LA
@@ -26,4 +26,4 @@ Subsystem-SymbolicName: com.ibm.websphere.appserver.websocket-1.1; visibility:=p
 Subsystem-Type: osgi.subsystem.feature
 Subsystem-Vendor: IBM Corp.
 Subsystem-Version: 1.0.0
-Tool: Bnd-3.1.0.201511301807
+Tool: Bnd-3.3.0.201609221906

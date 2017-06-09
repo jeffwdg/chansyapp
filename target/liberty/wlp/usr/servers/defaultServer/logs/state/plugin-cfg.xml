@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!--HTTP server plugin config file for defaultServer generated on 2017.03.21 at 22:57:09 CST-->
+<?xml version="1.0" encoding="UTF-8"?><!--HTTP server plugin config file for defaultServer generated on 2017.06.10 at 00:00:54 CST-->
 <Config ASDisableNagle="false" AcceptAllContent="false" AppServerPortPreference="HostHeader" ChunkedResponse="false" FIPSEnable="false" IISDisableNagle="false" IISPluginPriority="High" IgnoreDNSFailures="false" RefreshInterval="60" ResponseChunkSize="64" SSLConsolidate="false" TrustedProxyEnable="false" VHostMatchingCompat="false">
    <Log LogLevel="Error" Name="/opt/IBM/WebSphere/Plugins/logs/webserver1/http_plugin.log"/>
    <Property Name="ESIEnable" Value="true"/>
@@ -16,7 +16,7 @@
       <VirtualHost Name="*:443"/>
    </VirtualHostGroup>
    <ServerCluster CloneSeparatorChange="false" GetDWLMTable="false" IgnoreAffinityRequests="true" LoadBalance="Round Robin" Name="defaultServer_default_node_Cluster" PostBufferSize="0" PostSizeLimit="-1" RemoveSpecialHeaders="true" RetryInterval="60" ServerIOTimeoutRetry="-1">
-      <Server CloneID="69626392-4f9f-43b1-ac9b-4bc8fd5caba9" ConnectTimeout="5" ExtendedHandshake="false" LoadBalanceWeight="20" MaxConnections="-1" Name="default_node_defaultServer" ServerIOTimeout="900" WaitForContinue="false">
+      <Server CloneID="1bb7a2bd-f1ec-4bc2-8ee5-a8cc595b9476" ConnectTimeout="5" ExtendedHandshake="false" LoadBalanceWeight="20" MaxConnections="-1" Name="default_node_defaultServer" ServerIOTimeout="900" WaitForContinue="false">
          <Transport Hostname="isd-pc0brtvw.ad.qintra.com" Port="9080" Protocol="http"/>
          <Transport Hostname="isd-pc0brtvw.ad.qintra.com" Port="9443" Protocol="https">
             <Property Name="keyring" Value="/opt/IBM/WebSphere/Plugins/config/webserver1/plugin-key.kdb"/>

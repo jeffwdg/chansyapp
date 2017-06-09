@@ -1,3 +1,3 @@
-#Sun Nov 13 03:38:16 GMT 2016
-lib/com.ibm.ws.javaee.metadata.context.ejb_1.0.15.jar=ab4a4676add804e4b29d012f60fa9803
-lib/features/com.ibm.websphere.appserver.ejbComponentMetadataDecorator-1.0.mf=0ff0379a374e5ea2e9a5fce0f7df7751
+#Mon Feb 27 04:08:30 GMT 2017
+lib/features/com.ibm.websphere.appserver.ejbComponentMetadataDecorator-1.0.mf=b86d4627882450857b78ad85c3583e8d
+lib/com.ibm.ws.javaee.metadata.context.ejb_1.0.16.jar=c1abe854880c5d9913b303fcc1195863

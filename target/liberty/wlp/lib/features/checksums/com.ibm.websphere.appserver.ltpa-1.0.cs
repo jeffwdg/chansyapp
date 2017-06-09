@@ -1,8 +1,8 @@
-#Sun Nov 13 03:38:16 GMT 2016
-lib/com.ibm.websphere.security_1.0.15.jar=4eca7e4b3ac0c5742c8b7c11913b955a
-lib/com.ibm.ws.security.token_1.0.15.jar=6b5c640de101a6519e851b60e058d7be
-lib/features/com.ibm.websphere.appserver.ltpa-1.0.mf=e8b9c8687cd40b8cfd5d0bb6ba629e64
-lib/com.ibm.ws.security.credentials.ssotoken_1.0.15.jar=0df49520439bf02a071b8f7bc44cfd05
-lib/com.ibm.ws.security.token.ltpa_1.0.15.jar=2908a55a59d3f47a77d1790d79fad470
-lib/com.ibm.ws.security.credentials_1.0.15.jar=7f8ad708a18bfb281a3436c3eaf93b0b
-lib/com.ibm.ws.crypto.ltpakeyutil_1.0.15.jar=f3f34d946b5f8fcc756b84e33d049c14
+#Mon Feb 27 04:08:31 GMT 2017
+lib/features/com.ibm.websphere.appserver.ltpa-1.0.mf=475d7c9c7092e1355795be8b84c90f77
+lib/com.ibm.ws.security.token.ltpa_1.0.16.jar=b043e78029fd5b85069f67297ac98c4c
+lib/com.ibm.ws.security.credentials_1.0.16.jar=a5b2eb91b24505e1d23d319536cb217d
+lib/com.ibm.ws.crypto.ltpakeyutil_1.0.16.jar=d04bb5713e92ed79cc2d4c503f77a4fb
+lib/com.ibm.websphere.security_1.0.16.jar=4a334d2b041a831e9b29014bf4191f47
+lib/com.ibm.ws.security.token_1.0.16.jar=c83f5afd5b6192c102cacad827dc82c3
+lib/com.ibm.ws.security.credentials.ssotoken_1.0.16.jar=8c65e550713c3fae471887f4b8e589ce

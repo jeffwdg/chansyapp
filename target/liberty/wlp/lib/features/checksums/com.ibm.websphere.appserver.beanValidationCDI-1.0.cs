@@ -1,3 +1,3 @@
-#Sun Nov 13 03:38:16 GMT 2016
-lib/com.ibm.ws.beanvalidation.v11.cdi_1.0.15.jar=22d2e435711e67f21c128198e6ba94cc
-lib/features/com.ibm.websphere.appserver.beanValidationCDI-1.0.mf=4ca995f861e45406b48f5be373f2e456
+#Mon Feb 27 04:08:30 GMT 2017
+lib/features/com.ibm.websphere.appserver.beanValidationCDI-1.0.mf=6c9f7737a1e1e018f01248abf3044928
+lib/com.ibm.ws.beanvalidation.v11.cdi_1.0.16.jar=c3eb4487cf1db0dccbaa0873e928224c

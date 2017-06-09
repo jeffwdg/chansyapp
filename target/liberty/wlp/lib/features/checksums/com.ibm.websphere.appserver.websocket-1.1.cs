@@ -1,7 +1,7 @@
-#Sun Nov 13 03:38:16 GMT 2016
-dev/api/spec/com.ibm.websphere.javaee.websocket.1.1_1.0.15.jar=fbad0df6db342e7a928ceaa171aa54e9
-dev/api/ibm/com.ibm.websphere.appserver.api.wsoc_1.0.15.jar=d86fa8c3d928ec2f890b6cd68a241594
-lib/com.ibm.ws.wsoc_1.0.15.jar=cf0f68b4ae23c438e8be16a7d8e2ede4
-lib/com.ibm.ws.wsoc.1.1_1.0.15.jar=33128ad8d8ee60c3d87a5ad71cdcca86
-lib/features/com.ibm.websphere.appserver.websocket-1.1.mf=b6ebdb1e76d20fcd02abbce5e9548a0a
-dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.wsoc_1.0-javadoc.zip=a815e0fcd3fc1a53de8c2778010290a3
+#Mon Feb 27 04:08:30 GMT 2017
+dev/api/ibm/com.ibm.websphere.appserver.api.wsoc_1.0.16.jar=2730b7dfb6bed61cc6b871941b01f46f
+lib/com.ibm.ws.wsoc_1.0.16.jar=0556bca387cb85c699aafd1b003eb966
+lib/com.ibm.ws.wsoc.1.1_1.0.16.jar=f1626781ef3491f253d44412ae0dde2c
+lib/features/com.ibm.websphere.appserver.websocket-1.1.mf=8ee0b898e3018575f6252f589a79a80d
+dev/api/spec/com.ibm.websphere.javaee.websocket.1.1_1.0.16.jar=acf467532ce2a4ff950e16452dd10f03
+dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.wsoc_1.0-javadoc.zip=8f6e8d7092af585ab2e375a6d722bc29

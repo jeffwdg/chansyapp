@@ -1,5 +1,9 @@
 applications:
 - path: target/ChansyApp.war
+- services:
+  - Discovery-qz
+  - Retrieve and Rank-8u
+  - Natural Language Classifier-kf
   memory: 512M
   instances: 1
   domain: mybluemix.net

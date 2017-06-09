@@ -1,3 +1,3 @@
-#Sun Nov 13 03:38:15 GMT 2016
-lib/features/com.ibm.websphere.appserver.ejbliteJPA-1.0.mf=804f0cd9fbb33247ab5693fef3b318e4
-lib/com.ibm.ws.ejbcontainer.jpa_1.0.15.jar=dd4f696001c5882b0d61a2251263aa69
+#Mon Feb 27 04:08:30 GMT 2017
+lib/features/com.ibm.websphere.appserver.ejbliteJPA-1.0.mf=980e3f65a41b4be19705969533c421b8
+lib/com.ibm.ws.ejbcontainer.jpa_1.0.16.jar=93bc849be680fe6b5366fa06254cd849

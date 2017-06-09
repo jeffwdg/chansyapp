@@ -1,4 +1,4 @@
-#Sun Nov 13 03:38:16 GMT 2016
-lib/com.ibm.ws.javaee.persistence.api.2.1_1.0.15.jar=fe9a00bfc7084615890bb323f38e9a77
-lib/features/com.ibm.websphere.appserver.javax.persistence-2.1.mf=7bdf963580261ecfafa0768caaa50d5c
-dev/api/spec/com.ibm.websphere.javaee.persistence.2.1_1.0.15.jar=28a133c3298e816845c6a95fe7a6855f
+#Mon Feb 27 04:08:30 GMT 2017
+dev/api/spec/com.ibm.websphere.javaee.persistence.2.1_1.0.16.jar=ecf60441dc1f1e8d183efb2f4402f2ab
+lib/com.ibm.ws.javaee.persistence.api.2.1_1.0.16.jar=64c87f8610f4e89123bdc622953a1184
+lib/features/com.ibm.websphere.appserver.javax.persistence-2.1.mf=3b4793f72ea0d4a66b4eb80caf0ecf24

@@ -1,4 +1,4 @@
-#Sun Nov 13 03:38:15 GMT 2016
-lib/features/com.ibm.websphere.appserver.jsonp-1.0.mf=12c6b8b043f9556482be6cb1da789941
-dev/api/spec/com.ibm.websphere.javaee.jsonp.1.0_1.0.15.jar=5fbf39a9cb7c2c2f51f4323f2eea0edb
-lib/com.ibm.ws.org.glassfish.json.1.0_1.0.15.jar=7b537c3a577b8459f9183b760c87fab0
+#Mon Feb 27 04:08:29 GMT 2017
+dev/api/spec/com.ibm.websphere.javaee.jsonp.1.0_1.0.16.jar=a3d449bb9721244976ac607b6a08a70a
+lib/com.ibm.ws.org.glassfish.json.1.0_1.0.16.jar=0144511af98b934a558cca22a5fb2b99
+lib/features/com.ibm.websphere.appserver.jsonp-1.0.mf=32d82e7f5fafbf391494af309c0a0086

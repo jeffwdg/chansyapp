@@ -1,6 +1,6 @@
-#Sun Nov 13 03:38:14 GMT 2016
+#Mon Feb 27 04:08:29 GMT 2017
 lib/platform/zosNoConsoleExtensions-1.0.mf=9a5ffba8b1918d03e89f8f581bde3d46
-lib/com.ibm.ws.zos.logging_1.0.15.jar=7bfad3baeae02af5d7cd7ac2f01dfe73
-lib/com.ibm.ws.security.thread.zos.hooks_1.0.15.jar=ff10e9512a33bc2d366a4a6751d6cb9e
-lib/com.ibm.ws.zos.diagnostics_1.0.15.jar=0917528fcd78766a8c0ffee7a50fbdab
-lib/com.ibm.ws.zos.core_1.0.15.jar=1984ee715e640d48d7986e182af39f64
+lib/com.ibm.ws.security.thread.zos.hooks_1.0.16.jar=aee522b736574c46c4636d078643bb89
+lib/com.ibm.ws.zos.diagnostics_1.0.16.jar=ad2667ff3a0b8932540188a8146c2ec0
+lib/com.ibm.ws.zos.core_1.0.16.jar=fac68bd5d8ee754a1072fa88cbd847cd
+lib/com.ibm.ws.zos.logging_1.0.16.jar=bf7deacd33e4bd45485f25b67dde47e5

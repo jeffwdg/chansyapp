@@ -1,3 +1,3 @@
-#Sun Nov 13 03:38:15 GMT 2016
-lib/features/com.ibm.websphere.appserver.jeeMetadataContext-1.0.mf=0e981ef5876b925584e7dc29f9ef84fd
-lib/com.ibm.ws.javaee.metadata.context_1.0.15.jar=e83fd9af98ab254b1da7a69d863a8dde
+#Mon Feb 27 04:08:30 GMT 2017
+lib/com.ibm.ws.javaee.metadata.context_1.0.16.jar=ed4c6e893118209fba064b4ce213a064
+lib/features/com.ibm.websphere.appserver.jeeMetadataContext-1.0.mf=1d49b2c5d1fe7a9576d152a0b2e66f7e

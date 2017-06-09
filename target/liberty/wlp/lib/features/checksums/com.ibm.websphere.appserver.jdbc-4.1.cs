@@ -1,4 +1,4 @@
-#Sun Nov 13 03:38:15 GMT 2016
-lib/features/com.ibm.websphere.appserver.jdbc-4.1.mf=b0bc1d8014f9eb1b6ad5c6f375ff37cb
-lib/com.ibm.ws.jdbc_1.0.15.jar=8993e83171c7c0c15621f5add45e31f9
-lib/com.ibm.ws.jdbc.4.1_1.0.15.jar=f8f3725b2d3747281b62d929eaec045e
+#Mon Feb 27 04:08:30 GMT 2017
+lib/com.ibm.ws.jdbc_1.0.16.jar=33e73d3f32ac33ec51841bb5260fc909
+lib/com.ibm.ws.jdbc.4.1_1.0.16.jar=208d2e443d6f1cca49bf4608a506d5aa
+lib/features/com.ibm.websphere.appserver.jdbc-4.1.mf=70db253cb4b785a8e13bcbe2de222d51

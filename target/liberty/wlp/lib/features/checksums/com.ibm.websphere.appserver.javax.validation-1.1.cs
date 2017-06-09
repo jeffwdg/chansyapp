@@ -1,3 +1,3 @@
-#Sun Nov 13 03:38:16 GMT 2016
-lib/features/com.ibm.websphere.appserver.javax.validation-1.1.mf=b161a552d461979234d394cf9c8d8b94
-dev/api/spec/com.ibm.websphere.javaee.validation.1.1_1.0.15.jar=0cbdf7d74aae1eb05fe4d4ef94ca3c1b
+#Mon Feb 27 04:08:31 GMT 2017
+lib/features/com.ibm.websphere.appserver.javax.validation-1.1.mf=82c7f9e41a178d9733e36c088650d694
+dev/api/spec/com.ibm.websphere.javaee.validation.1.1_1.0.16.jar=ab551a59d5b7cb7934ff459746c32001

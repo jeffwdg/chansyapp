@@ -1,6 +1,6 @@
-#Sun Nov 13 03:38:15 GMT 2016
-dev/api/third-party/com.ibm.websphere.appserver.thirdparty.eclipselink_1.0.15.jar=fee17fcbf4fd1bcde7a114ea0287dca3
-lib/com.ibm.ws.jpa.container_1.0.15.jar=2ac5c0b09e37f74f3e4e694813ddc200
-lib/com.ibm.ws.jpa.container.v21_1.0.15.jar=37bbd00776b94230c7133197713dbca4
-lib/features/com.ibm.websphere.appserver.jpa-2.1.mf=6be20cd0c920cfbf892a77e4a77d413b
-lib/com.ibm.ws.jpa.container.eclipselink_1.0.15.jar=65a242845164f71ba9b526b7d64feecb
+#Mon Feb 27 04:08:29 GMT 2017
+lib/com.ibm.ws.jpa.container_1.0.16.jar=52564c005e6c1fdb8771070f8373fe90
+lib/com.ibm.ws.jpa.container.v21_1.0.16.jar=e259dbe21652c5d4940a545cac8985c4
+lib/com.ibm.ws.jpa.container.eclipselink_1.0.16.jar=c5553bb786fd8703b26cadf0b3592ebf
+lib/features/com.ibm.websphere.appserver.jpa-2.1.mf=9dc9781665ccd19e18531a44c895cc34
+dev/api/third-party/com.ibm.websphere.appserver.thirdparty.eclipselink_1.0.16.jar=449c5e10a690845773984e2ea3d8da53

@@ -1,5 +1,5 @@
-#Sun Nov 13 03:38:16 GMT 2016
-lib/com.ibm.ws.session.monitor_1.0.15.jar=d33d1b5829ff334e32aca8d843fb5273
-dev/api/ibm/com.ibm.websphere.appserver.api.sessionstats_1.0.15.jar=08121bbfbd0d3a565b5e41e2108bd1a5
-dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.sessionstats_1.0-javadoc.zip=b688bafddfefef3b0d9e9f493cf9c6ff
-lib/features/com.ibm.websphere.appserver.sessionMonitor-1.0.mf=36a45c4dcf8167d4e17b99fd4e2c2673
+#Mon Feb 27 04:08:30 GMT 2017
+lib/com.ibm.ws.session.monitor_1.0.16.jar=5b97921e26bfadeb821070658bd63ba9
+dev/api/ibm/com.ibm.websphere.appserver.api.sessionstats_1.0.16.jar=50144be52c17b380a952fad735c58be7
+dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.sessionstats_1.0-javadoc.zip=5f6263c91eaba0896262745500605e92
+lib/features/com.ibm.websphere.appserver.sessionMonitor-1.0.mf=5b8fea360d280a5e70c5d1120c5fd3ae

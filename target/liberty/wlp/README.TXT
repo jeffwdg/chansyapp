@@ -1,4 +1,4 @@
-WebSphere Application Server Version 16.0.0.4 Liberty - (16.0.0.4-cl160420161113-0206)
+WebSphere Application Server Version 17.0.0.1 Liberty - (17.0.0.1-cl170120170227-0220)
 
 
 I. CONTROLLING WEBSPHERE APPLICATION SERVER LIBERTY
@@ -132,6 +132,8 @@ By default, the runtime uses the following directory structure:
   |  |  +- procs/                                       z/OS proc templates for starting a Liberty server
   +- usr/                          wlp.user.dir         User directory
   |  +- shared/
+  |  |  +- jvm.options                                  Server JVM options (optional: merged with server specific jvm.options)
+  |  |  +- server.env                                   Server script envrionment variables (optional: merged with wlp/etc/server.env)
   |  |  +- apps/                   shared.app.dir       Shared applications
   |  |  +- config/                 shared.config.dir    Shared server configuration files
   |  |  +- resources/              shared.resource.dir  Shared resource definitions: adapters, data sources
@@ -140,7 +142,7 @@ By default, the runtime uses the following directory structure:
   |  |  |                          wlp.server.name      The name of the server is the directory name
   |  |  |  +- bootstrap.properties                      Server bootstrap properties (optional)
   |  |  |  +- jvm.options                               Server JVM options (optional: replaces wlp/etc/jvm.options)
-  |  |  |  +- server.env                                Server script environment variables (optional: merged with wlp/etc/server.env)
+  |  |  |  +- server.env                                Server script environment variables (optional: merged with wlp/usr/shared/server.env)
   |  |  |  +- server.xml                                Server configuration file (required)
   |  |  |  +- apps/                                     Server's configured applications directory
   |  |  |  |  +- <application.type>                     Application directory or archive
@@ -200,12 +202,12 @@ characters. All characters in the value are considered to be literal, including
 back-slashes and leading and trailing white space. Shell and variable expansion 
 are not supported.
 
-The server management script will search for server.env files in two locations,
-${wlp.install.dir}/etc/server.env and ${server.config.dir}/server.env. If both
-files are present, the contents of the two server.env files will be merged,
-with values in the the server-level file taking precedence over values in the
-runtime-level file.
-
+The server management script will search for server.env files in a few locations:
+${wlp.install.dir}/etc/, ${wlp.user.dir}/shared/ and ${server.config.dir}/. 
+All these files are read in the order specified above. If the same property
+is specified in multiple files then values in later files will take precedence.
+It should be noted that WLP_USER_DIR is special in that it can only be specified
+in the etc/server.env since it dictates the locations of the other server.env files.
 
 2. Customizing JVM options
 
@@ -214,9 +216,12 @@ server startup options, for example, -X arguments. The options will be applied
 when the start, run, and debug actions are invoked through the server management
 script. Be sure to specify only one option per line.
 
-The server management script will search for jvm.options files in two locations,
-${server.config.dir}/jvm.options and ${wlp.install.dir}/etc/jvm.options. If both
-files are present, ${server.config.dir}/jvm.options will be used.
+The server management script will search for jvm.options files in multiple locations.
+It will look for jvm.options in: ${wlp.usr.dir}/shared/, 
+${server.config.dir}/configDropins/defaults, ${server.config.dir}/,
+${server.config.dir}/configDropins/overrides/ it will read all these files and
+then append the options in order. If none of those files exist then the
+${wlp.install.dir}/etc/jvm.options will be used.
 
 
 3. Bootstrap properties

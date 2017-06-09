@@ -2,7 +2,7 @@
 ###############################################################################
 # WebSphere Application Server liberty launch script
 #
-# Copyright IBM Corp. 2011, 2014
+# Copyright IBM Corp. 2011, 2017
 # The source code for this program is not published or other-
 # wise divested of its trade secrets, irrespective of what has
 # been deposited with the U.S. Copyright Office.
@@ -281,6 +281,10 @@ createServer()
       # If production on IBM i, authorize QEJBSVR to the server folder
       chgautOS400 "${WLP_USER_DIR}/servers/${SERVER_NAME}" "*RX"
       chgautOS400 "${WLP_OUTPUT_DIR}" "*RWX"
+      if [ -d "${WLP_USER_DIR}/servers/${SERVER_NAME}/apps" ]; then
+         chgautOS400 "${WLP_USER_DIR}/servers/${SERVER_NAME}/apps" "*RWX"
+      fi
+      
     fi
   fi
 
@@ -635,6 +639,7 @@ serverEnv()
   readServerEnv "${WLP_INSTALL_DIR}/etc/server.env"
   installEnvDefaults
 
+  readServerEnv "${WLP_USER_DIR}/shared/server.env"
   readServerEnv "${SERVER_CONFIG_DIR}/server.env"
   serverEnvDefaults
 }
@@ -706,13 +711,9 @@ mergeJVMOptions()
         if [ -n "$option" ]; then
           case $option in
           \#*);;
-          -*)
+          *)
             escapeForEval "${option}"
             SERVER_JVM_OPTIONS_QUOTED="${SERVER_JVM_OPTIONS_QUOTED} '${option}'"
-            ;;
-          *)
-            javaCmd '' --message:error.jvm.option "$jvmOptions" "$option"
-            rc=32
             ;;
           esac
         fi
@@ -917,6 +918,9 @@ serverCmd()
     # Start the STC procedure
     "${WLP_INSTALL_DIR}/lib/native/zos/s390x/bbgzcsl" "${WLP_ZOS_PROCEDURE}" "${SERVER_NAME}" "${X_PID_FILE}" "$@"
     rc=$?
+
+    JVM_OPTIONS_QUOTED=${SAVE_JVM_OPTIONS_QUOTED}
+    IBM_JAVA_OPTIONS=${SAVE_IBM_JAVA_OPTIONS}
     
     if [ $rc = 0 ]; then
       # Verify/wait for the process to start
@@ -1190,6 +1194,32 @@ case "$ACTION" in
     else
       exit 2
     fi
+  ;;
+  
+  # pause the server
+  pause)
+    serverEnv
+    # Check to see if the server exists
+    if checkServer true
+    then
+      javaCmd '' "${SERVER_NAME}" --pause "$@" 
+      exit $?
+    else
+      exit 2
+    fi    
+  ;;
+
+  # resume the server
+  resume)
+    serverEnv
+    # Check to see if the server exists
+    if checkServer true
+    then
+      javaCmd '' "${SERVER_NAME}" --resume "$@" 
+      exit $?
+    else
+      exit 2
+    fi    
   ;;
   
   version)

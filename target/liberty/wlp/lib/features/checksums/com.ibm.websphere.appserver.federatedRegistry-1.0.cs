@@ -1,7 +1,7 @@
-#Sun Nov 13 03:38:15 GMT 2016
-lib/com.ibm.websphere.security_1.0.15.jar=4eca7e4b3ac0c5742c8b7c11913b955a
-lib/com.ibm.ws.security.registry_1.0.15.jar=7ed2e332d5f92c1068ae6831e2e8a8e6
-dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.federatedRepository_1.0-javadoc.zip=cf2060febeba8c0c4494c075f204bd71
-lib/features/com.ibm.websphere.appserver.federatedRegistry-1.0.mf=8854e955a00667a39ef7c52b45c3c5a2
-lib/com.ibm.ws.security.wim.registry_1.0.15.jar=4f36e5902f0640faa8568b3c062af4b4
-dev/spi/ibm/com.ibm.websphere.appserver.spi.federatedRepository_1.0.15.jar=0e4be532519b80b74dc930aa15f1fb42
+#Mon Feb 27 04:08:30 GMT 2017
+lib/com.ibm.ws.security.wim.registry_1.0.16.jar=96028acb14f73d1c00f83bd19fc0504d
+dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.federatedRepository_1.0-javadoc.zip=7ab886b7a82a7c45369ae98aabb4c7f9
+dev/spi/ibm/com.ibm.websphere.appserver.spi.federatedRepository_1.0.16.jar=dc9151c62e6b5130198e4037c26a81db
+lib/features/com.ibm.websphere.appserver.federatedRegistry-1.0.mf=cf97964de04e3903daaa57460592f196
+lib/com.ibm.websphere.security_1.0.16.jar=4a334d2b041a831e9b29014bf4191f47
+lib/com.ibm.ws.security.registry_1.0.16.jar=a50b6ea2396ae4cf44c2a95fb414b02b

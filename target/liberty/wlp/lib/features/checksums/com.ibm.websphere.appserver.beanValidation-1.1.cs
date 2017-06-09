@@ -1,5 +1,5 @@
-#Sun Nov 13 03:38:15 GMT 2016
-lib/features/com.ibm.websphere.appserver.beanValidation-1.1.mf=3a09cf34ac5f4532e0ca34e08ac6ef04
-lib/com.ibm.ws.beanvalidation.v11_1.0.15.jar=2a9d63a8763eaceb879afc2d43846ec4
-lib/com.ibm.ws.org.apache.commons.weaver.1.1_1.0.15.jar=8670208284f0b9f28adb4ac55c286ab1
-lib/com.ibm.ws.org.apache.bval.1.1.0_1.0.15.jar=610b9567ebe384dd369830e958ba0ac8
+#Mon Feb 27 04:08:29 GMT 2017
+lib/features/com.ibm.websphere.appserver.beanValidation-1.1.mf=8eb9798b132ffd81b756077df5c88132
+lib/com.ibm.ws.org.apache.commons.weaver.1.1_1.0.16.jar=8cd63f85e0b1971f2c9f07007454d665
+lib/com.ibm.ws.org.apache.bval.1.1.0_1.0.16.jar=8903f8cff95607b7b05c5c42becaca7d
+lib/com.ibm.ws.beanvalidation.v11_1.0.16.jar=9704eabff1e4915146db4d9cc7fa8b05

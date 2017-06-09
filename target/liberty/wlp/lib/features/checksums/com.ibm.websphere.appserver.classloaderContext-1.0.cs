@@ -1,3 +1,3 @@
-#Sun Nov 13 03:38:15 GMT 2016
-lib/features/com.ibm.websphere.appserver.classloaderContext-1.0.mf=1a6d921e6b3c4c3fdfdfa432c7fcafa6
-lib/com.ibm.ws.classloader.context_1.0.15.jar=4bff105abd97745196356759310392ff
+#Mon Feb 27 04:08:30 GMT 2017
+lib/com.ibm.ws.classloader.context_1.0.16.jar=e9da42a612057b41eb371649931cd407
+lib/features/com.ibm.websphere.appserver.classloaderContext-1.0.mf=bb4d4f43def75849021f88412f626518

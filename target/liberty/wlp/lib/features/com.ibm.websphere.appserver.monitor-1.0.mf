@@ -1,4 +1,4 @@
-Bnd-LastModified: 1479005494367
+Bnd-LastModified: 1488164697774
 Created-By: 1.7.0 (IBM Corporation)
 IBM-API-Package: com.ibm.websphere.monitor.jmx; type=ibm-api,
  com.ibm.websphere.monitor.annotation; type=internal,
@@ -6,7 +6,7 @@ IBM-API-Package: com.ibm.websphere.monitor.jmx; type=ibm-api,
  com.ibm.websphere.pmi.client; type=internal,
  com.ibm.websphere.pmi.server; type=internal,
  com.ibm.websphere.pmi.stat; type=internal
-IBM-AppliesTo: com.ibm.websphere.appserver;productVersion="16.0.0.4"
+IBM-AppliesTo: com.ibm.websphere.appserver;productVersion="17.0.0.1"
 IBM-Feature-Version: 2
 IBM-InstallTo: core
 IBM-License-Agreement: wlp/lafiles/LA
@@ -25,4 +25,4 @@ Subsystem-SymbolicName: com.ibm.websphere.appserver.monitor-1.0; visibility:=pub
 Subsystem-Type: osgi.subsystem.feature
 Subsystem-Vendor: IBM Corp.
 Subsystem-Version: 1.0.0
-Tool: Bnd-3.1.0.201511301807
+Tool: Bnd-3.3.0.201609221906

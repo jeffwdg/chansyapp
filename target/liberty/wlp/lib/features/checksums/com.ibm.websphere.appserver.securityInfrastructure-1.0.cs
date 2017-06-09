@@ -1,11 +1,12 @@
-#Sun Nov 13 03:38:15 GMT 2016
-lib/com.ibm.ws.security.authorization_1.0.15.jar=93cafa00f3454d1912a5a3bfe5835c0f
-lib/com.ibm.ws.security.credentials_1.0.15.jar=7f8ad708a18bfb281a3436c3eaf93b0b
-lib/com.ibm.ws.security.token_1.0.15.jar=6b5c640de101a6519e851b60e058d7be
-lib/features/com.ibm.websphere.appserver.securityInfrastructure-1.0.mf=4f7dd1c665dfe8a63609f1e96c11c55f
-lib/com.ibm.websphere.security_1.0.15.jar=4eca7e4b3ac0c5742c8b7c11913b955a
-lib/com.ibm.ws.management.security_1.0.15.jar=1a1a8060a17c5ba864d73866bdad4673
-lib/com.ibm.ws.security.registry_1.0.15.jar=7ed2e332d5f92c1068ae6831e2e8a8e6
-lib/com.ibm.ws.security.ready.service_1.0.15.jar=ab1d1d252e3561170028e08460b78735
-lib/com.ibm.ws.security.authentication_1.0.15.jar=3778bac8a09d504cb9c59c8b15d5ab02
-lib/com.ibm.ws.security_1.0.15.jar=17cde888c009548a509121ee3cdb39f6
+#Mon Feb 27 04:08:29 GMT 2017
+lib/com.ibm.ws.security.token_1.0.16.jar=c83f5afd5b6192c102cacad827dc82c3
+lib/com.ibm.ws.security.credentials_1.0.16.jar=a5b2eb91b24505e1d23d319536cb217d
+lib/com.ibm.websphere.security_1.0.16.jar=4a334d2b041a831e9b29014bf4191f47
+lib/features/com.ibm.websphere.appserver.securityInfrastructure-1.0.mf=ca6e6f6f8143670775509f8cee8a8d47
+lib/com.ibm.ws.management.security_1.0.16.jar=05bf50dc3fa0b03c4b90bfd9250e86d6
+lib/com.ibm.ws.security.registry_1.0.16.jar=a50b6ea2396ae4cf44c2a95fb414b02b
+lib/com.ibm.ws.security.ready.service_1.0.16.jar=fd38714d225448685a683d37d85904d1
+lib/com.ibm.ws.security.authentication_1.0.16.jar=0981799a3083dd7aa43d5eb75a038527
+lib/com.ibm.ws.security.audit.context_1.0.16.jar=25099b66eae57469533b170de72d67ab
+lib/com.ibm.ws.security_1.0.16.jar=ce42e3efc387816b5abe1e1495abfd05
+lib/com.ibm.ws.security.authorization_1.0.16.jar=79b579457ad5f96baf9c28c806aedc8b

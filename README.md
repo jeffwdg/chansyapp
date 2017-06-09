@@ -26,6 +26,7 @@ Use the following steps to run the application locally:
 Use the following command to run the built application in Bluemix:
     ```bash
     $ cf push <appname> -p target/JavaHelloWorldApp.war
+    cf push <yourappname> -p myapp.war
     ```
 ## Developing and Deploying using Eclipse
 

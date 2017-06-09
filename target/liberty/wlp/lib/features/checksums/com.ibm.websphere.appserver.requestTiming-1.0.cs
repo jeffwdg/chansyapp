@@ -1,3 +1,3 @@
-#Sun Nov 13 03:38:15 GMT 2016
-lib/com.ibm.ws.request.timing_1.0.15.jar=2353f1b32a6e4f413ed9898be33d58b8
-lib/features/com.ibm.websphere.appserver.requestTiming-1.0.mf=6f28db374664d0cc1af4f09e3069ba68
+#Mon Feb 27 04:08:30 GMT 2017
+lib/com.ibm.ws.request.timing_1.0.16.jar=384b98405621244d3037cd787088ba1b
+lib/features/com.ibm.websphere.appserver.requestTiming-1.0.mf=d7b43127d4360e080ec8232901bb91d5

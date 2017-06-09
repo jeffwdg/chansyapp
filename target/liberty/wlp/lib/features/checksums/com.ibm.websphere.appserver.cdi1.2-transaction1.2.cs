@@ -1,3 +1,3 @@
-#Sun Nov 13 03:38:15 GMT 2016
-lib/features/com.ibm.websphere.appserver.cdi1.2-transaction1.2.mf=d2abfcc422a6eb82b1e03c4db30e70d7
-lib/com.ibm.ws.cdi.1.2.transaction_1.0.15.jar=118cbb3a0cbf8808da215e6aa549e1e2
+#Mon Feb 27 04:08:29 GMT 2017
+lib/com.ibm.ws.cdi.1.2.transaction_1.0.16.jar=8024b8cdd7673ba3a960e425d9bed31d
+lib/features/com.ibm.websphere.appserver.cdi1.2-transaction1.2.mf=57a51cfc7914d29ac331a303658fe3b5

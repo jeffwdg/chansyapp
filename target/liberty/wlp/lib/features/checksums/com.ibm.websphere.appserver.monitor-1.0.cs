@@ -1,5 +1,5 @@
-#Sun Nov 13 03:38:15 GMT 2016
-dev/api/ibm/com.ibm.websphere.appserver.api.monitor_1.1.15.jar=789a65ee33d4440024d6170efc49d144
-lib/features/com.ibm.websphere.appserver.monitor-1.0.mf=dec65a068c3b03012766fd2c2fe2c3c5
-dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.monitor_1.1-javadoc.zip=df093a0503c5b971621272d06d1bf683
-lib/com.ibm.ws.monitor_1.0.15.jar=140afae775d253cdb3eda3854a8f6109
+#Mon Feb 27 04:08:30 GMT 2017
+lib/features/com.ibm.websphere.appserver.monitor-1.0.mf=8639dc7fb932105f1e3f6438cfd6b0c9
+dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.monitor_1.1-javadoc.zip=b11a5a47158fb017348b5dec8825f1ae
+dev/api/ibm/com.ibm.websphere.appserver.api.monitor_1.1.16.jar=c13aa705e1636b0066d1161a148f88e8
+lib/com.ibm.ws.monitor_1.0.16.jar=6b14b575eba388181f6325c3cc7de0f4

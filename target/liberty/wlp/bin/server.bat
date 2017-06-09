@@ -1,7 +1,7 @@
 @echo off
 @REM WebSphere Application Server liberty launch script
 @REM
-@REM Copyright IBM Corp. 2011, 2014
+@REM Copyright IBM Corp. 2011, 2017
 @REM The source code for this program is not published or other-
 @REM wise divested of its trade secrets, irrespective of what has
 @REM been deposited with the U.S. Copyright Office.
@@ -141,6 +141,10 @@ if "help" == "%ACTION%" (
   call:stopWinService
 ) else if "unregisterWinService" == "%ACTION%" (
   call:unregisterWinService
+) else if "pause" == "%ACTION%" (
+  call:pauseServer
+) else if "resume" == "%ACTION%" (
+  call:resumeServer
 ) else (
   goto:actions
 )
@@ -370,6 +374,25 @@ goto:eof
   !WLP_INSTALL_DIR!\bin\tools\win\prunsrv.exe //DS//%SERVER_NAME%
 goto:eof
 
+:pauseServer
+  call:serverEnv
+  call:serverExists true
+  if %RC% == 2 goto:eof
+
+  !JAVA_CMD_QUOTED! !JAVA_PARAMS_QUOTED! --batch-file=--pause !PARAMS_QUOTED!
+  set RC=%errorlevel%
+  call:javaCmdResult
+goto:eof
+
+:resumeServer
+  call:serverEnv
+  call:serverExists true
+  if %RC% == 2 goto:eof
+
+  !JAVA_CMD_QUOTED! !JAVA_PARAMS_QUOTED! --batch-file=--resume !PARAMS_QUOTED!
+  set RC=%errorlevel%
+  call:javaCmdResult
+goto:eof
 
 
 @REM
@@ -463,6 +486,7 @@ goto:eof
   call:readServerEnv "%WLP_INSTALL_DIR%\etc\server.env"
   call:installEnvDefaults
 
+  call:readServerEnv "%WLP_USER_DIR%/shared/server.env"
   call:readServerEnv "%SERVER_CONFIG_DIR%\server.env"
   call:serverEnvDefaults
 goto:eof
@@ -546,16 +570,7 @@ goto:eof
   for /f "usebackq eol=# tokens=*" %%i in (%1) do (
     set JVM_OPTION="%%i"
     set JVM_OPTION=!JVM_OPTION:"=!
-    if "!JVM_OPTION:~0,1!" == "-" (
-        set JVM_TEMP_OPTIONS=!JVM_TEMP_OPTIONS! %%i
-    ) else (
-      !JAVA_CMD_QUOTED! !JAVA_PARAMS_QUOTED! --message:error.jvm.option %1 "%%i"
-      if !RC! == 0 (
-        set RC=32
-      ) else (
-        call:javaCmdResult
-      )
-    )
+    set JVM_TEMP_OPTIONS=!JVM_TEMP_OPTIONS! "%%i"
   )
 goto:eof
 

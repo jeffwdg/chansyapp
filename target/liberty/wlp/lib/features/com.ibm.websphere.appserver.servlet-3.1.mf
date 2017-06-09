@@ -1,4 +1,4 @@
-Bnd-LastModified: 1479005889621
+Bnd-LastModified: 1488165314086
 Created-By: 1.7.0 (IBM Corporation)
 IBM-API-Package: javax.servlet.annotation; type=spec,
  javax.servlet.descriptor; type=spec,
@@ -16,7 +16,7 @@ IBM-API-Package: javax.servlet.annotation; type=spec,
  com.ibm.wsspi.webcontainer.annotation; type=internal
 IBM-App-ForceRestart: install,
  uninstall
-IBM-AppliesTo: com.ibm.websphere.appserver;productVersion="16.0.0.4"
+IBM-AppliesTo: com.ibm.websphere.appserver;productVersion="17.0.0.1"
 IBM-Feature-Version: 2
 IBM-InstallTo: core
 IBM-License-Agreement: wlp/lafiles/LA
@@ -77,6 +77,7 @@ Subsystem-Content: ws-webserverPluginutil.jar; type=file; location:="bin/tools/w
  com.ibm.websphere.security; version="[1.0.0,1.0.200)",
  com.ibm.ws.org.apache.commons.fileupload.1.2.1; version="[1.0.0,1.0.200)",
  com.ibm.ws.webcontainer.servlet.3.1; version="[1.0.0,1.0.200)",
+ com.ibm.ws.webcontainer.servlet.3.1.factories; version="[1.0.0,1.0.200)",
  com.ibm.ws.session; version="[1.0.0,1.0.200)",
  com.ibm.ws.webcontainer; version="[1.1.0,1.1.200)",
  com.ibm.ws.webcontainer.cors; version="[1.0.0,1.0.200)",
@@ -92,4 +93,4 @@ Subsystem-SymbolicName: com.ibm.websphere.appserver.servlet-3.1; visibility:=pub
 Subsystem-Type: osgi.subsystem.feature
 Subsystem-Vendor: IBM Corp.
 Subsystem-Version: 1.0.0
-Tool: Bnd-3.1.0.201511301807
+Tool: Bnd-3.3.0.201609221906

@@ -1,3 +1,3 @@
-#Sun Nov 13 03:38:15 GMT 2016
-lib/features/com.ibm.websphere.appserver.javax.jsf-2.2.mf=5c2688bf41f6aaad37b8096c30373c9a
-dev/api/spec/com.ibm.websphere.javaee.jsf.2.2_1.0.15.jar=1a8136f2f4f83f22441080c16b066a73
+#Mon Feb 27 04:08:29 GMT 2017
+dev/api/spec/com.ibm.websphere.javaee.jsf.2.2_1.0.16.jar=5a1db2ef299b235405908f0fe27f09cb
+lib/features/com.ibm.websphere.appserver.javax.jsf-2.2.mf=dfa8012b4e7935451b69fa4868bbd9c2

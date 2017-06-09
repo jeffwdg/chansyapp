@@ -1,4 +1,4 @@
-#Sun Nov 13 03:38:15 GMT 2016
-lib/features/com.ibm.websphere.appserver.contextService-1.0.mf=4537bbde0e72614dad11d492b172aac1
-lib/com.ibm.ws.context_1.0.15.jar=7b67af3198820e55fec41b7ee58cda9a
-lib/com.ibm.ws.resource_1.0.15.jar=5818f5dc0fd968af79acbd057ab6f562
+#Mon Feb 27 04:08:30 GMT 2017
+lib/com.ibm.ws.context_1.0.16.jar=b802371178c284d54e1ce20fe406ef62
+lib/com.ibm.ws.resource_1.0.16.jar=7b821ddf3415014294f809c09a4f973f
+lib/features/com.ibm.websphere.appserver.contextService-1.0.mf=a9aa741c072c25c8c789cda7357f9995

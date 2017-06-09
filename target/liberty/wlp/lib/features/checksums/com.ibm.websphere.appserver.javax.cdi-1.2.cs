@@ -1,3 +1,3 @@
-#Sun Nov 13 03:38:15 GMT 2016
-dev/api/spec/com.ibm.websphere.javaee.cdi.1.2_1.2.15.jar=055882836ac5b895831be68859062056
-lib/features/com.ibm.websphere.appserver.javax.cdi-1.2.mf=3f23ebe4558b8ef55e8f6ad31f4ace28
+#Mon Feb 27 04:08:30 GMT 2017
+dev/api/spec/com.ibm.websphere.javaee.cdi.1.2_1.2.16.jar=0a56b28246d0527ee55c89d051c1838a
+lib/features/com.ibm.websphere.appserver.javax.cdi-1.2.mf=d37fa20bf0d46fb98282387856ae6e53

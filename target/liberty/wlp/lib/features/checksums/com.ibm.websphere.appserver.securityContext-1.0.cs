@@ -1,3 +1,3 @@
-#Sun Nov 13 03:38:15 GMT 2016
-lib/com.ibm.ws.security.context_1.0.15.jar=2005d2a5e14af865ecafad0e8421dd2b
-lib/features/com.ibm.websphere.appserver.securityContext-1.0.mf=5688aefcc2c6b794fb04161555248c2b
+#Mon Feb 27 04:08:30 GMT 2017
+lib/features/com.ibm.websphere.appserver.securityContext-1.0.mf=ea911a1299f4098bd1285bc02b99f31e
+lib/com.ibm.ws.security.context_1.0.16.jar=ba96b2c6030a856ea2a1fa2f07fbe81e

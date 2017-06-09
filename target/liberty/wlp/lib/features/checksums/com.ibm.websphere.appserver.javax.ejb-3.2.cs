@@ -1,3 +1,3 @@
-#Sun Nov 13 03:38:15 GMT 2016
-lib/features/com.ibm.websphere.appserver.javax.ejb-3.2.mf=68956c8b5dfe88ebe0c594ee2769d6aa
-dev/api/spec/com.ibm.websphere.javaee.ejb.3.2_1.0.15.jar=457483a20f93f43b1a07aa2c38ebea9e
+#Mon Feb 27 04:08:29 GMT 2017
+dev/api/spec/com.ibm.websphere.javaee.ejb.3.2_1.0.16.jar=87062b29acf7a0ab9c1991290431d149
+lib/features/com.ibm.websphere.appserver.javax.ejb-3.2.mf=719d3028d6db9e1cd8706b3e19d1e352
