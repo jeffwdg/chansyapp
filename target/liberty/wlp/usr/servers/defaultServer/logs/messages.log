@@ -5,33 +5,35 @@ java.home = C:\Program Files\Java\jdk1.8.0_101\jre
 java.version = 1.8.0_101
 java.runtime = Java(TM) SE Runtime Environment (1.8.0_101-b13)
 os = Windows 7 (6.1; amd64) (en_US)
-process = 10504@ISD-PC0BRTVW
+process = 9372@ISD-PC0BRTVW
 ********************************************************************************
-[6/10/17 0:00:46:504 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer has been launched.
-[6/10/17 0:00:46:536 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0100I: This product is licensed for development, and limited production use. The full license terms can be viewed here: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/17.0.0.1/lafiles/en.html
-[6/10/17 0:00:49:487 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 3.39 seconds
-[6/10/17 0:00:49:562 CST] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
-[6/10/17 0:00:51:099 CST] 00000011 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications. 
-[6/10/17 0:00:51:273 CST] 0000001d com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host *  (IPv6) port 9080.
-[6/10/17 0:00:51:596 CST] 00000023 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application ChansyApp.
-[6/10/17 0:00:54:021 CST] 00000023 com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
-[6/10/17 0:00:54:147 CST] 00000023 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: ChansyApp-1.2.
-[6/10/17 0:00:54:152 CST] 00000023 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module ChansyApp-1.2 has been bound to default_host.
-[6/10/17 0:00:54:153 CST] 00000023 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://isd-pc0brtvw.ad.qintra.com:9080/ChansyApp/
-[6/10/17 0:00:54:160 CST] 00000023 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application ChansyApp started in 2.565 seconds.
-[6/10/17 0:00:54:218 CST] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [servlet-3.1].
-[6/10/17 0:00:54:218 CST] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 4.733 seconds.
-[6/10/17 0:00:54:219 CST] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The server defaultServer is ready to run a smarter planet.
-[6/10/17 0:00:54:306 CST] 00000023 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/ChansyApp
-[6/10/17 0:00:54:336 CST] 00000023 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
-[6/10/17 0:00:54:441 CST] 00000023 SystemErr                                                    R SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-[6/10/17 0:00:54:442 CST] 00000023 SystemErr                                                    R SLF4J: Defaulting to no-operation (NOP) logger implementation
-[6/10/17 0:00:54:444 CST] 00000023 SystemErr                                                    R SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-[6/10/17 0:00:55:736 CST] 0000001e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\Users\IBM_ADMIN\Documents\GitHub\chansyapp\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.
-[6/10/17 0:01:02:551 CST] 0000000f com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Saturday, June 10, 2017 at 12:01 AM. The server defaultServer is shutting down.
-[6/10/17 0:01:02:557 CST] 00000027 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
-[6/10/17 0:01:02:561 CST] 00000028 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint has stopped listening for requests on host *  (IPv6) port 9080.
-[6/10/17 0:01:02:563 CST] 00000028 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://isd-pc0brtvw.ad.qintra.com:9080/ChansyApp/
-[6/10/17 0:01:02:566 CST] 00000027 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Server quiesce complete.
-[6/10/17 0:01:02:608 CST] 00000023 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application ChansyApp has stopped successfully.
-[6/10/17 0:01:03:049 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server defaultServer stopped after 16.954 seconds.
+[6/12/17 13:38:27:415 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer has been launched.
+[6/12/17 13:38:27:442 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0100I: This product is licensed for development, and limited production use. The full license terms can be viewed here: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/17.0.0.1/lafiles/en.html
+[6/12/17 13:38:29:907 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 2.841 seconds
+[6/12/17 13:38:30:050 CST] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[6/12/17 13:38:32:144 CST] 00000011 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications. 
+[6/12/17 13:38:32:345 CST] 0000001e com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host *  (IPv6) port 9080.
+[6/12/17 13:38:32:689 CST] 00000019 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application ChansyApp.
+[6/12/17 13:38:35:266 CST] 00000019 com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[6/12/17 13:38:35:339 CST] 00000019 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: ChansyApp-1.2.
+[6/12/17 13:38:35:343 CST] 00000019 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module ChansyApp-1.2 has been bound to default_host.
+[6/12/17 13:38:35:344 CST] 00000019 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://isd-pc0brtvw.ad.qintra.com:9080/ChansyApp/
+[6/12/17 13:38:35:403 CST] 00000019 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application ChansyApp started in 2.714 seconds.
+[6/12/17 13:38:35:477 CST] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [servlet-3.1].
+[6/12/17 13:38:35:477 CST] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 5.570 seconds.
+[6/12/17 13:38:35:478 CST] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The server defaultServer is ready to run a smarter planet.
+[6/12/17 13:38:36:153 CST] 00000026 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/ChansyApp
+[6/12/17 13:38:36:183 CST] 00000026 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[6/12/17 13:38:36:343 CST] 00000026 SystemErr                                                    R SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+[6/12/17 13:38:36:344 CST] 00000026 SystemErr                                                    R SLF4J: Defaulting to no-operation (NOP) logger implementation
+[6/12/17 13:38:36:346 CST] 00000026 SystemErr                                                    R SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[6/12/17 13:38:37:225 CST] 0000001d com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\Users\IBM_ADMIN\Documents\GitHub\chansyapp\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.
+[6/12/17 13:40:01:322 CST] 00000033 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [ChansyApp] [/ChansyApp] [wasdev.sample.servlet.SimpleServlet]: Initialization successful.
+[6/12/17 13:40:22:311 CST] 0000000f com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Monday, June 12, 2017 at 1:40 PM. The server defaultServer is shutting down.
+[6/12/17 13:40:22:317 CST] 0000004a com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[6/12/17 13:40:22:325 CST] 0000004b com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint has stopped listening for requests on host *  (IPv6) port 9080.
+[6/12/17 13:40:22:326 CST] 0000004b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://isd-pc0brtvw.ad.qintra.com:9080/ChansyApp/
+[6/12/17 13:40:22:332 CST] 0000004a com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Server quiesce complete.
+[6/12/17 13:40:22:352 CST] 00000037 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [ChansyApp] [/ChansyApp] [wasdev.sample.servlet.SimpleServlet]: Destroy successful.
+[6/12/17 13:40:22:369 CST] 00000037 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application ChansyApp has stopped successfully.
+[6/12/17 13:40:22:688 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server defaultServer stopped after 1 minutes, 55.622 seconds.
